@@ -1,0 +1,31 @@
+export interface User {
+  id: string;
+  user_id: string;
+  created_at: string;
+  first_name: string;
+  last_name: string;
+  email: string | null;
+  gender: string;
+  username: string | null;
+  height: number;
+  weight: number;
+  waist: number;
+  hips: number | null;
+  bust: number | null;
+  shoe: number;
+  inseam: number | null;
+  updated_at: string | null;
+  headshot_url: string | null;
+  half_url: string | null;
+  side_url: string | null;
+  full_url: string | null;
+  onboarded: boolean;
+  measurement: string;
+  country: string | null;
+  state: string | null;
+  city: string | null;
+  chest: number;
+  hair: string;
+  eyes: string;
+  dob: Date | null;
+}
